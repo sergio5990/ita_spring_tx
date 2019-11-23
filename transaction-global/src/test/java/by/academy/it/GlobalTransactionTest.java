@@ -13,11 +13,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import by.academy.it.global.entity.Person;
 import by.academy.it.global.services.IPersonService;
 
-/**
- * Class GlobalTransactionTest
- *
- * Created by yslabko on 11/01/2017.
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:global-context.xml")
 public class GlobalTransactionTest {

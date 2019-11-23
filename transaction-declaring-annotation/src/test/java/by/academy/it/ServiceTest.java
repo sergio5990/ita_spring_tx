@@ -16,14 +16,13 @@ import java.beans.Transient;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:test-service.xml")
 @Transactional
+@Rollback()
 public class ServiceTest {
 
     @Autowired
     private EmployeeServiceImpl employeeService;
 
     @Test
-    @Transactional
-    @Rollback()
     public void saveTest() {
         Employee e = new Employee();
         e.setFirstName("Yulij II");

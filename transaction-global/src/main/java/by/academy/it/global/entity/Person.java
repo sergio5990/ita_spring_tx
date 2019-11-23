@@ -8,11 +8,6 @@ import javax.persistence.Id;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * User: yslabko
- * Date: 14.04.14
- * Time: 12:24
- */
 @Data @NoArgsConstructor
 @Entity
 public class Person {
